@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>FEEDBACK</title>
+
+    <STYle>
+        .block{
+            border:0px solid grey;
+            padding: 4%;
+            margin: 0px 500px ;
+            border-radius: 10px ;
+            
+`        }
+    
+        .shadow{
+            box-shadow: 5px 10px 15px grey;
+        }
+        .feed_area{
+            height: 100px ;
+            width: 400px;
+        }
+        .title{
+            color: grey;
+            text-align:center ;
+            margin : 40px ;
+            font-size: 200%;
+            font-weight: bolder;
+        }
+        .button_css{
+            align-items: center;
+            background-color: rgb(9, 152, 235);
+            color: white ;
+            border: 1px solid white;
+            border-radius: 10px ;
+        }
+         .navbar{
+            font-size: larger;
+            font-weight: bolder;
+            padding: 20px ;
+            padding-right: 100px ;
+            top: 0px;
+        }
+
+        .nav_items{
+            padding-left: 10px  ;
+            padding-right: 30px  ;
+
+        }
+    </STYle>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand text-white navbar" href="#">Course Master</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active text-white nav_items" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-white nav_items" href="course_category.html">Cources</a>
+                    <a class="nav-item nav-link text-white nav_items" href="login.html">Login</a>
+                    <a class="nav-item nav-link text-white nav_items" href="signup.html">SignUp</a>
+                    <a class="nav-item nav-link text-white nav_items" href="feedback_form.html">Feedback</a>
+                    <a class="nav-item nav-link text-white nav_items" href="update_info.html">Update Profile</a>
+                    <a class="nav-item nav-link text-white nav_items" href="contactus.html">Contact us </a>
+        
+        
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="title">FEEDBACK</div>
+
+
+
+    <div class="block shadow">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">ENTER TITLE : </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="title">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">YOUR MESSAGE :</label><BR></BR>
+            <textarea class="form-control feed_area" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+        </div>
+
+        <a href="/feedback_form.html" target="_blank" rel="noopener noreferrer">
+            <button class="button_css">submit</button>
+        </a>
+    </div>
+   
+
+
+</body>
+</html>
